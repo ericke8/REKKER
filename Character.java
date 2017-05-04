@@ -13,6 +13,7 @@ public abstract class Character
     private int yPos;
 
 
+    //test
     public int getXPos()
     {
         return xPos;
