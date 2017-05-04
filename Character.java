@@ -13,7 +13,12 @@ public abstract class Character
     private int yPos;
 
 
-    //test
+    public abstract void move();// maybe return end position
+
+
+    public abstract void attack();
+
+
     public int getXPos()
     {
         return xPos;
@@ -48,4 +53,12 @@ public abstract class Character
     {
         return health;
     }
+
+
+    public int healthAdjust( int adjust )
+    {
+        health += adjust;
+        return health;
+    }
+
 }
