@@ -13,6 +13,7 @@ public class UnitHealer extends Character
     public void attack()
     {
         // TODO Auto-generated method stub
+        // heal negative, only unit able to heal both enemy and ally
 
     }
 
